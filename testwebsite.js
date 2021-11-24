@@ -2,14 +2,13 @@ var myQuestion1 = document.getElementsByClassName("faq-quest1")[0]
 var myAnswer1 = document.getElementsByClassName("faq-answer1")[0]
 
 myQuestion1.addEventListener("click", myFunction)
-
+var none = ""
 function myFunction() {
     var display = myAnswer1.style.display;
-    if (display == "none") {
+    if (display == none) {
         myAnswer1.style.display = "block";
     } else {
-        myAnswer1.style.display = "none";
-
+        myAnswer1.style.display = none;
     }
 
 }
@@ -20,10 +19,10 @@ myQuestion2.addEventListener("click", myFunction1)
 
 function myFunction1() {
     var display = myAnswer2.style.display;
-    if (display == "none") {
+    if (display == none) {
         myAnswer2.style.display = "block";
     } else {
-        myAnswer2.style.display = "none";
+        myAnswer2.style.display = none;
 
     }
 
@@ -35,10 +34,10 @@ myQuestion3.addEventListener("click", myFunction2)
 
 function myFunction2() {
     var display = myAnswer3.style.display;
-    if (display == "none") {
+    if (display == none) {
         myAnswer3.style.display = "block";
     } else {
-        myAnswer3.style.display = "none";
+        myAnswer3.style.display = none;
 
     }
 
@@ -50,10 +49,10 @@ myQuestion4.addEventListener("click", myFunction3)
 
 function myFunction3() {
     var display = myAnswer4.style.display;
-    if (display == "none") {
+    if (display == none) {
         myAnswer4.style.display = "block";
     } else {
-        myAnswer4.style.display = "none";
+        myAnswer4.style.display = none;
 
     }
 
@@ -66,10 +65,10 @@ myQuestion5.addEventListener("click", myFunction4)
 
 function myFunction4() {
     var display = myAnswer5.style.display;
-    if (display == "none") {
+    if (display == none) {
         myAnswer5.style.display = "block";
     } else {
-        myAnswer5.style.display = "none";
+        myAnswer5.style.display = none;
 
     }
 
@@ -82,10 +81,10 @@ myQuestion6.addEventListener("click", myFunction5)
 
 function myFunction5() {
     var display = myAnswer6.style.display;
-    if (display == "none") {
+    if (display == none) {
         myAnswer6.style.display = "block";
     } else {
-        myAnswer6.style.display = "none";
+        myAnswer6.style.display = none;
 
     }
 
