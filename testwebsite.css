@@ -100,9 +100,6 @@ body{
    
 }
 
-.download-button:hover{
-cursor: progress;
-}
 .btn-text{
     font-size: 1.2rem;
 }
@@ -184,8 +181,9 @@ cursor: progress;
     box-shadow: 0 0 1.5rem 0 black;
     position: absolute;
     bottom: 20px;
-    left: 0;
-    width: 20rem;
+    left: -15px;
+    width: 22rem;
+
 }
 
 .countdown{
@@ -217,9 +215,8 @@ cursor: progress;
 
 .download-button{
     padding-left: 1rem;
-    font-size: 3rem;
-    cursor: progress;
     color: blue;
+    font-size: 2rem;
     
 }
 
@@ -307,6 +304,7 @@ cursor: progress;
     margin-right: 20rem;
     font-size: 1.625rem;
     font-weight: bold;
+    display: none;
 }
 
 .faq-quest2{
@@ -335,6 +333,8 @@ cursor: progress;
     margin-right: 20rem;
     font-size: 1.625rem;
     font-weight: bold;
+    display: none;
+
 }
 
 .faq-quest3{
@@ -363,6 +363,8 @@ cursor: progress;
     margin-right: 20rem;
     font-size: 1.625rem;
     font-weight: bold;
+    display: none;
+
 }
 
 .faq-quest4{
@@ -391,6 +393,8 @@ cursor: progress;
     margin-right: 20rem;
     font-size: 1.625rem;
     font-weight: bold;
+    display: none;
+
 }
 
 .faq-quest5{
@@ -419,6 +423,8 @@ cursor: progress;
     margin-right: 20rem;
     font-size: 1.625rem;
     font-weight: bold;
+    display: none;
+
 }
 
 .faq-quest6{
@@ -447,6 +453,8 @@ cursor: progress;
     margin-right: 20rem;
     font-size: 1.625rem;
     font-weight: bold;
+    display: none;
+
 }
 
 
