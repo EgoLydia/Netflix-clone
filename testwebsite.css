@@ -1,0 +1,496 @@
+body{
+    background-color: black;
+}
+.bg-img{
+    background:linear-gradient(rgba(0, 0, 0, 0.52), black), url('bg-img.jpg');
+    background-size:contain;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#main-nav{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+}
+.signup-btn{
+    margin-left: auto;
+    text-decoration: none;
+    color: white;
+    border: none;
+    cursor: pointer;
+    background-color: #e50914;
+    line-height: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 7px 17px;
+    border-radius: 4px;
+}
+
+.signup-btn:hover{
+        transition: 0.5s;
+        background-color: #9e050d;
+    }
+
+.nav-img{
+    height: 74px;
+}
+
+#get-started{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.subhead{
+    font-size: 3.125rem;
+    line-height: 1.1;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.subhead2{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.subhead3{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.section-wrapper{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    align-items: center;
+}
+
+.input-section{
+    display: flex;
+    width: 100%;
+}
+.text{
+    width: 100%;
+    padding: 17px;
+}
+
+.button:hover{
+        transition: 0.5s;
+        background-color: #9e050d;
+      }
+    
+.button{
+    margin-left: auto;
+    width: 15rem;
+    background-color: #e50914;
+    border: none;
+    color: white;   
+    cursor: pointer;
+
+}
+
+
+.icon{
+    font-size: 1.625rem;
+    text-align: center;
+   
+}
+
+.download-button:hover{
+cursor: progress;
+}
+.btn-text{
+    font-size: 1.2rem;
+}
+
+.btn-text-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#story-card{
+    color: white;
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+
+}
+
+.video-text{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.subtitle{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+.story-card-tv{
+    position: relative;
+    margin-left: auto;
+}
+
+.story-tv{
+    position: absolute;
+    top: -85px;
+    left: -78px;
+    width: 40rem;
+
+}
+
+.watch-offline{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.savelist{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+#download-here{
+    color: white;
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-items: center;    
+    justify-content: center;
+}
+ 
+.stranger-girl{
+    width: 30rem;
+
+}
+
+.stranger{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    background-color: black;
+    height: 6.5rem;
+    border-radius: 20px;
+    margin-right: 5rem;
+    border: 4px solid #303030;
+    box-shadow: 0 0 1.5rem 0 black;
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 20rem;
+}
+
+.countdown{
+    color: blue;
+    margin: 0;
+}
+.book{
+    width: 70px;
+    height: 70px;
+    margin-left: 1rem;
+}
+
+.stranger-text1{
+    margin: 0;
+}
+
+.stranger-text{
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.download-link{
+    position: relative;
+}
+
+.watch-text{
+    padding-left: 9rem;
+}
+
+.download-button{
+    padding-left: 1rem;
+    font-size: 3rem;
+    cursor: progress;
+    color: blue;
+    
+}
+
+.watch{
+    font-size: 3.125rem;
+    font-weight: bold; 
+}
+
+.streamnow{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+#stream-online{
+    color: white;
+    display: flex;
+    padding-left: 5rem;
+}
+
+#kids-section{
+    color: white;
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    align-items: center;    
+    justify-content: center;
+}
+
+
+.profile{
+    font-size: 3.125rem;
+    font-weight: bold; 
+}
+
+.kidsadventure{
+    font-size: 1.625rem;
+    font-weight: 400;
+}
+
+#footer-notes{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.text1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
+
+.icon-plus{
+    margin-left: auto;
+    font-size: 3rem;
+    font-weight: 100;
+
+}
+
+.faq-quest1{
+    background-color: #303030;
+    text-align: left;
+    padding: 1rem 2rem 1rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.quest{
+    margin: 0;
+}
+
+.faq-answer1{
+    background-color: #303030;
+    text-align: left;
+    padding: 2rem 2rem 2rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.faq-quest2{
+    background-color: #303030;
+    text-align: left;
+    padding: 1rem 2rem 1rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.quest1{
+    margin: 0;
+}
+
+.faq-answer2{
+    background-color: #303030;
+    text-align: left;
+    padding: 2rem 2rem 2rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.faq-quest3{
+    background-color: #303030;
+    text-align: left;
+    padding: 1rem 2rem 1rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.quest2{
+    margin: 0;
+}
+
+.faq-answer3{
+    background-color: #303030;
+    text-align: left;
+    padding: 2rem 2rem 2rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.faq-quest4{
+    background-color: #303030;
+    text-align: left;
+    padding: 1rem 2rem 1rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.quest3{
+    margin: 0;
+}
+
+.faq-answer4{
+    background-color: #303030;
+    text-align: left;
+    padding: 2rem 2rem 2rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.faq-quest5{
+    background-color: #303030;
+    text-align: left;
+    padding: 1rem 2rem 1rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.quest4{
+    margin: 0;
+}
+
+.faq-answer5{
+    background-color: #303030;
+    text-align: left;
+    padding: 2rem 2rem 2rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+.faq-quest6{
+    background-color: #303030;
+    text-align: left;
+    padding: 1rem 2rem 1rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.quest5{
+    margin: 0;
+}
+
+.faq-answer6{
+    background-color: #303030;
+    text-align: left;
+    padding: 2rem 2rem 2rem 2rem ;
+    margin-left: 20rem;
+    margin-right: 20rem;
+    font-size: 1.625rem;
+    font-weight: bold;
+}
+
+
+#down-button{
+    width: 50%;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+#links{
+    color: white;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    line-height: 2.5rem;
+    
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    
+}
+.link-wrapper{
+    display: flex;
+    justify-content:space-around;
+}
+
+.contact{
+    margin-left: 4.5rem;
+}
+
+.nigeria{
+    margin-left: 5rem;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    border-color: #202020;
+    border-bottom-width: 10px;
+    padding: 0;
+    margin: 0;
+ border-style: solid;
+}
