@@ -12,12 +12,10 @@ body{
 
     #main-nav{
         display: flex;
-        justify-content: flex-end;
     }
 
     .nav-img{
-        height: 74px;
-        margin-right: auto;
+        width: 130px;
     }
 
     .signup-btn{
@@ -29,7 +27,10 @@ body{
         font-weight: 400;
         font-size: 1rem;
         border-radius: 4px;
-    }
+        margin-left: auto;
+        padding: 1em;
+        
+ }
 
     .signup-btn:hover{
         transition: 0.5s;
@@ -94,10 +95,20 @@ hr{
  border-style: solid;
 }
 
+.video-text{
+    padding-top:3rem;
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+}
 .story-card-tv{
     position: relative;
-    background-color: red;
-    width: 5%;
+    padding-bottom: 3rem;
 }
 
 #download-here{
@@ -105,16 +116,19 @@ hr{
 }
 
 .story-tv{
-    position: absolute;
-    width: 5%;
-    background-size: cover;
-    height: 10px;
-
+    position: absolute; 
+width: 100%;
 }
+
+.videoplay{
+    width: 100%;
+margin-left: auto;
+padding-top: 0.7em;}
 
 .watch-offline{
     font-size: 3.125rem;
     font-weight: bold;
+    padding-top: 3rem;
 }
 
 .savelist{
@@ -125,29 +139,27 @@ hr{
  
 .stranger-girl{
     width: 20rem;
-    margin-bottom: 30px;
 
 }
 
 .stranger{
     display: flex;
     align-items: center;
-    margin-left: 3rem;
+    margin-left: 4rem;
     background-color: black;
     border-radius: 20px;
-    margin-right: 3rem;
     border: 4px solid #303030;
     box-shadow: 0 0 1.5rem 0 black;
     position: absolute;
-    bottom: 20px;
     left: -15px;
-    width: 22rem;
-    bottom: -17rem;
+    width: 20rem;
+
 }
 
 #download-here{
     display: flex;
     flex-direction: column-reverse;
+    padding-top: 0;
 }
 
 
@@ -164,6 +176,7 @@ hr{
 .watch-offline{
     font-size: 2rem;
     font-weight: bold;
+
 }
 
 .savelist{
@@ -177,6 +190,7 @@ hr{
 
 .watch{
     font-size: 2rem;
+    padding-top: 3rem;
 }
 
 .streamnow{
@@ -190,6 +204,21 @@ hr{
     padding-top: 5em;
 }
 
+.profile{
+    font-size: 2rem;
+font-weight: bold;
+
+}
+
+.kidsadventure{
+font-size: 1rem;
+font-weight: 400;
+}
+
+#kids-section img{
+    background-color: red;
+    width: 100%;
+}
 #footer-notes{
     color: white;
 }
@@ -318,9 +347,12 @@ a{
 }
 .link-wrapper{
     display: flex;
-    flex-direction: column;
-    
-
+    flex: 1 1 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
 
 
