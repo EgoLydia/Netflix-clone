@@ -333,7 +333,7 @@ body {
   .faq-answer5 {
     background-color: #303030;
     line-height: 25px;
-    font-size: 15rem;
+    font-size: 1rem;
     font-weight: bold;
     display: none;
   }
@@ -600,9 +600,6 @@ body {
     margin-left: 1rem;
   }
 
-  .download-link {
-  }
-
   .watch-text {
     padding-left: 9rem;
   }
@@ -672,8 +669,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 1rem 2rem 1rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -689,8 +686,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     display: none;
@@ -700,8 +697,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 1rem 2rem 1rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -718,8 +715,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     display: none;
@@ -729,8 +726,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 1rem 2rem 1rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -747,8 +744,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     display: none;
@@ -758,8 +755,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 1rem 2rem 1rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -776,8 +773,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     display: none;
@@ -787,8 +784,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 1rem 2rem 1rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -805,8 +802,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     display: none;
@@ -816,8 +813,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 1rem 2rem 1rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     margin-bottom: 5px;
@@ -834,8 +831,8 @@ body {
     background-color: #303030;
     text-align: left;
     padding: 2rem 2rem 2rem 2rem;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
     font-size: 1.625rem;
     font-weight: bold;
     display: none;
@@ -850,8 +847,8 @@ body {
 
   #links {
     color: white;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    margin-left: 5rem;
+    margin-right: 15rem;
     line-height: 2.5rem;
   }
   a {
@@ -861,6 +858,9 @@ body {
   }
   .link-wrapper {
     display: flex;
+    flex-direction: row;
+    text-align: left;
+    width: 150%;
     justify-content: space-around;
   }
 
