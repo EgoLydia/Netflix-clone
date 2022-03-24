@@ -569,7 +569,7 @@ body {
   .stranger {
     display: flex;
     align-items: center;
-    margin-left: 5rem;
+    margin-left: 9rem;
     background-color: black;
     height: 6.5rem;
     border-radius: 20px;
@@ -577,8 +577,9 @@ body {
     border: 4px solid #303030;
     box-shadow: 0 0 1.5rem 0 black;
     position: absolute;
-    left: -15px;
+    left: -0.2rem;
     width: 22rem;
+    top: 100rem;
   }
 
   .countdown {
@@ -623,7 +624,7 @@ body {
   #stream-online {
     color: white;
     display: flex;
-    padding-left: 5rem;
+    padding-left: 9rem;
   }
 
   #kids-section {
